@@ -12,8 +12,8 @@ const DigitalClock = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center bg-red-500 w-full">
-      <div className="text-center">
+    <div className="">
+      <div className="clock">
         <h1>{time.toLocaleTimeString()}</h1>
       </div>
     </div>
